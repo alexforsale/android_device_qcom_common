@@ -389,7 +389,8 @@ PRODUCT_PACKAGES := \
     LatinIME \
     Trebuchet \
     Mms \
-    Music \
+    Apollo \
+    DSPManager \
     Phone \
     Provision \
     Protips \

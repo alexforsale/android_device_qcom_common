@@ -396,10 +396,13 @@ PRODUCT_PACKAGES := \
     Protips \
     GoogleQuickSearchBox \
     Settings \
+    Superuser \
     Sync \
     SystemUI \
     CalendarProvider \
     SyncProvider \
+    Term \
+    libjackpal-androidterm4 \
     IM \
     VoiceDialer \
     FM \

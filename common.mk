@@ -391,6 +391,8 @@ PRODUCT_PACKAGES := \
     Mms \
     Apollo \
     DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf \
     Phone \
     Provision \
     Protips \

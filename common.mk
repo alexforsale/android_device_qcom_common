@@ -500,10 +500,16 @@ PRODUCT_COPY_FILES := \
 include build/core/utils.mk
 
 #Enabling Ring Tones
-include frameworks/base/data/sounds/OriginalAudio.mk
+include frameworks/base/data/sounds/NewAudio.mk
 
 #Enabling video for live effects
-include frameworks/base/data/videos/VideoPackage1.mk
+include frameworks/base/data/videos/VideoPackage2.mk
+
+# Default ringtone
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=CyanTone.ogg \
+    ro.config.notification_sound=CyanMessage.ogg \
+    ro.config.alarm_alert=CyanAlarm.ogg
 
 # For PRODUCT_COPY_FILES, the first instance takes precedence.
 # Since we want use QC specific files, we should inherit

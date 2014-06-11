@@ -387,24 +387,17 @@ PRODUCT_PACKAGES := \
     Email \
     Gallery2 \
     LatinIME \
-    Trebuchet \
     Mms \
-    Apollo \
-    DSPManager \
-    libcyanogen-dsp \
     audio_effects.conf \
     Phone \
     Provision \
     Protips \
     GoogleQuickSearchBox \
     Settings \
-    Superuser \
     Sync \
     SystemUI \
     CalendarProvider \
     SyncProvider \
-    Term \
-    libjackpal-androidterm4 \
     IM \
     VoiceDialer \
     FM \

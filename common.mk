@@ -392,7 +392,7 @@ PRODUCT_PACKAGES := \
     Phone \
     Provision \
     Protips \
-    GoogleQuickSearchBox \
+    QuickSearchBox \
     Settings \
     Sync \
     SystemUI \

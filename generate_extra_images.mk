@@ -86,6 +86,7 @@ ifeq ($(strip $(BUILD_TINY_ANDROID)),true)
 include device/qcom/common/dtbtool/Android.mk
 endif
 
+ifeq ($(BOARD_CUSTOM_BOOTIMG_MK),)
 DTBTOOL := $(HOST_OUT_EXECUTABLES)/dtbTool$(HOST_EXECUTABLE_SUFFIX)
 
 INSTALLED_DTIMAGE_TARGET := $(PRODUCT_OUT)/dt.img
@@ -104,6 +105,8 @@ $(INSTALLED_DTIMAGE_TARGET): $(DTBTOOL) $(INSTALLED_KERNEL_TARGET)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(INSTALLED_DTIMAGE_TARGET)
 ALL_MODULES.$(LOCAL_MODULE).INSTALLED += $(INSTALLED_DTIMAGE_TARGET)
+endif
+
 endif
 
 #---------------------------------------------------------------------
